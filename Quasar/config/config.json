@@ -1,0 +1,19 @@
+{
+  "HEALTH_CHECK": {
+    "CORE_V4_IP": "127.0.0.1"  
+  },
+  "PRINTING": {
+    "LEFT": {
+      "ENABLED": true,
+      "NAME": "left-printer",          
+      "IP": "127.0.0.1",                
+      "LPD_URL": "lpd://127.0.0.1"      
+    },
+    "RIGHT": {
+      "ENABLED": true,
+      "NAME": "right-printer",
+      "IP": "127.0.0.1",
+      "LPD_URL": "lpd://127.0.0.1"
+    }
+  }
+}

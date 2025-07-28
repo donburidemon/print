@@ -1,0 +1,11 @@
+FROM python:3.10.2-slim-buster
+
+WORKDIR /app
+
+COPY ./printer/requirements.txt /app
+
+RUN pip3 install -r /app/requirements.txt
+
+EXPOSE 9000
+
+ENTRYPOINT ["python","./printer/server.py"]
